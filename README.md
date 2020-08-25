@@ -174,6 +174,7 @@
 - BiSeNet [https://arxiv.org/pdf/1808.00897.pdf] [2018]
 	+ https://github.com/ooooverflow/BiSeNet [PyTorch]
 	+ https://github.com/ycszen/TorchSeg [PyTorch]
+	+ https://github.com/zllrunning/face-parsing.PyTorch [PyTorch]
 - ESPNet [https://arxiv.org/pdf/1803.06815.pdf] [2018]
 	+ https://github.com/sacmehta/ESPNet [PyTorch]
 - DFN [https://arxiv.org/pdf/1804.09337.pdf] [2018]
@@ -202,6 +203,11 @@
 	+ https://github.com/zhanghang1989/PyTorch-Encoding [PyTorch]
 - Unet++ [https://arxiv.org/pdf/1807.10165.pdf] [2018]
 	+ https://github.com/MrGiovanni/UNetPlusPlus [Keras]
+	+ https://github.com/4uiiurz1/pytorch-nested-unet [PyTorch]
+- FastFCN [https://arxiv.org/pdf/1903.11816.pdf] [2019]
+	+ https://github.com/wuhuikai/FastFCN [PyTorch]
+- PortraitNet [https://www.yongliangyang.net/docs/mobilePotrait_c&g19.pdf] [2019]
+	+ https://github.com/dong-x16/PortraitNet [PyTorch]
 	
 ### Instance aware segmentation
 - FCIS [https://arxiv.org/pdf/1611.07709.pdf]
@@ -228,6 +234,8 @@
   + https://github.com/dvornikita/blitznet [Tensorflow]
 - PANet [https://arxiv.org/pdf/1803.01534.pdf] [2018]
   + https://github.com/ShuLiu1993/PANet [Caffe]
+- PAN [https://arxiv.org/pdf/1805.10180.pdf] [2018]
+  + https://github.com/JaveyWang/Pyramid-Attention-Networks-pytorch [PyTorch]
 - TernausNetV2 [https://arxiv.org/pdf/1806.00844.pdf] [2018]
 	+ https://github.com/ternaus/TernausNetV2 [PyTorch]
 - MS R-CNN [https://arxiv.org/pdf/1903.00241.pdf] [2019]
@@ -240,9 +248,16 @@
 	+ https://github.com/dbolya/yolact [PyTorch]
 - CenterMask [https://arxiv.org/pdf/1911.06667.pdf] [2019]
 	+ https://github.com/youngwanLEE/CenterMask [PyTorch]
+	+ https://github.com/youngwanLEE/centermask2 [PyTorch]
 - InstaBoost [https://arxiv.org/pdf/1908.07801.pdf] [2019]
 	+ https://github.com/GothicAi/Instaboost [PyTorch]
-
+- SOLO [https://arxiv.org/pdf/1912.04488.pdf] [2019]
+	+ https://github.com/WXinlong/SOLO [PyTorch]
+- SOLOv2 [https://arxiv.org/pdf/2003.10152.pdf] [2020]
+	+ https://github.com/WXinlong/SOLO [PyTorch]
+- D2Det [https://openaccess.thecvf.com/content_CVPR_2020/papers/Cao_D2Det_Towards_High_Quality_Object_Detection_and_Instance_Segmentation_CVPR_2020_paper.pdf] [2020]
+	+https://github.com/JialeCao001/D2Det [PyTorch]
+	
 ### Weakly-supervised segmentation
 - SEC [https://arxiv.org/pdf/1603.06098.pdf]
   + https://github.com/kolesman/SEC [Caffe]
@@ -261,7 +276,7 @@
   + https://github.com/NP-coder/CLPS1520Project [Tensorflow]
   + https://github.com/renmengye/rec-attend-public [Tensorflow]
   + https://github.com/sadeepj/crfasrnn_keras [Keras]
- 
+
 ## GANS
 - pix2pix [https://arxiv.org/pdf/1611.07004.pdf] [2018]
   + https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix [Pytorch]
@@ -317,6 +332,8 @@
   + [Inria Aerial Image Labeling](https://project.inria.fr/aerialimagelabeling/)
 
 ## Benchmarks
+  + https://github.com/openseg-group/openseg.pytorch [PyTorch]
+  + https://github.com/open-mmlab/mmsegmentation [PyTorch]
   + https://github.com/ZijunDeng/pytorch-semantic-segmentation [PyTorch]
   + https://github.com/meetshah1995/pytorch-semseg [PyTorch]
   + https://github.com/GeorgeSeif/Semantic-Segmentation-Suite [Tensorflow]
@@ -363,7 +380,7 @@
 
 ## Metrics
   + https://github.com/martinkersner/py_img_seg_eval
-  
+
 ## Losses
   + https://github.com/JunMa11/SegLoss 
   + http://www.cs.umanitoba.ca/~ywang/papers/isvc16.pdf
@@ -375,7 +392,7 @@
   + https://github.com/tangzhenyu/SemanticSegmentation_DL
   + https://github.com/nightrome/really-awesome-semantic-segmentation
   + https://github.com/JackieZhangdx/InstanceSegmentationList
-  
+
 ## Medical image segmentation:
 
 - DIGITS
@@ -416,12 +433,12 @@
   + Sliding window approach
 	  - http://people.idsia.ch/~juergen/nips2012.pdf
   + https://github.com/albarqouni/Deep-Learning-for-Medical-Applications#segmentation
-	  
+	
  - Data:
    - https://luna16.grand-challenge.org/
    - https://camelyon16.grand-challenge.org/
    - https://github.com/beamandrew/medical-data
-  
+
 ## Satellite images segmentation
 
   + https://github.com/mshivaprakash/sat-seg-thesis
@@ -434,7 +451,7 @@
   + https://github.com/trailbehind/DeepOSM
   + https://github.com/mapbox/robosat
   + https://github.com/datapink/robosat.pink
-  
+
  - Data:
   	+ https://github.com/RSIA-LIESMARS-WHU/RSOD-Dataset-
 	+ SpaceNet[https://spacenetchallenge.github.io/]
